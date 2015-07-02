@@ -1,0 +1,15 @@
+{
+    "name": "agencycore/accounting",
+    "description": "Set of PHP interfaces that ensure our accounting API wrappers follow the same format",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Matt Davies",
+            "email": "matt@agencycore.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Accounting\\": "src/Accounting" }
+    }
+}
