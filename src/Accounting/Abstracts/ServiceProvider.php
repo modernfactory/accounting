@@ -60,12 +60,12 @@ abstract class ServiceProvider extends LaravelServiceProvider
             // fetch from database?
             if ( $database['active'] )
             {
-                $tokens = Config::get($service . '.tokens');
                 foreach ( $tokens as $key => &$value )
                 {
-                    $tokens[$key] = DB::table('settings')
-                                      ->select($database['index'], $database['value'])
-                                      ->where($database['index'], $key);
+                    $data = DB::table('settings')
+                              ->select($database['index'], $database['value'])
+                              ->where($database['index'], $key);
+                    if ( $data ) $tokens[$key] = $data;
                 }
             }
             $api->setup( $tokens );
