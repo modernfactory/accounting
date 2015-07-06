@@ -64,7 +64,7 @@ abstract class ServiceProvider extends LaravelServiceProvider
                 {
                     $data = DB::table('settings')
                               ->select($database['index'], $database['value'])
-                              ->where($database['index'], $key);
+                              ->where($database['index'], $service . '_tokens_' . $key);
                     if ( $data ) $tokens[$key] = $data;
                 }
             }
