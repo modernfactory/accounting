@@ -1,4 +1,6 @@
 #Agency Core Accounting Interface
+[![Latest Stable Version](https://poser.pugx.org/agencycore/accounting/v/stable)](https://packagist.org/packages/agencycore/accounting) [![Total Downloads](https://poser.pugx.org/agencycore/accounting/downloads)](https://packagist.org/packages/agencycore/accounting) [![Latest Unstable Version](https://poser.pugx.org/agencycore/accounting/v/unstable)](https://packagist.org/packages/agencycore/accounting) [![License](https://poser.pugx.org/agencycore/accounting/license)](https://packagist.org/packages/agencycore/accounting)
+
 Simple PHP abstracts, interfaces and traits that ensure each of our accounting API wrappers (for Xero, FreeAgent and Kashflow) all follow the same format.
 
 ##Installation

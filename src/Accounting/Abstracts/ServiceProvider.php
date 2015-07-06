@@ -12,6 +12,7 @@
 
 namespace Accounting\Abstracts;
 
+use DB;
 use Config;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
