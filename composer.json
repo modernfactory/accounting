@@ -2,7 +2,7 @@
     "name": "agencycore/accounting",
     "description": "Set of PHP interfaces that ensure our accounting API wrappers follow the same format",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "Matt Davies",
