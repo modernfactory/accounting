@@ -26,6 +26,7 @@ abstract class Invoice implements Model
      *
      */
 	public $id;
+	public $po;
 	public $number;
 	public $issued;
 	public $due;
