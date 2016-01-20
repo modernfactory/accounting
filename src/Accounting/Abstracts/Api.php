@@ -35,6 +35,7 @@ abstract class Api
         'purchase' => 'purchases',
         'invoice'  => 'invoices',
         'credit'   => 'credits',
+        'payment'  => 'payments',
     ];
 
     /**
@@ -143,6 +144,8 @@ abstract class Api
             return $this->endpoints['invoice'];
         if ( is_a($model, 'Accounting\Abstracts\Credit') )
             return $this->endpoints['credit'];
+        if ( is_a($model, 'Accounting\Abstracts\Payment') )
+            return $this->endpoints['payment'];
     }
     
     /**
