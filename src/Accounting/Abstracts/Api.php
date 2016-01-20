@@ -36,6 +36,7 @@ abstract class Api
         'invoice'  => 'invoices',
         'credit'   => 'credits',
         'payment'  => 'payments',
+        'printInvoice'  => 'printInvoices',
     ];
 
     /**
