@@ -1,5 +1,5 @@
 {
-    "name": "agencycore/accounting",
+    "name": "modernfactory/accounting",
     "description": "Set of PHP interfaces that ensure our accounting API wrappers follow the same format",
     "license": "MIT",
     "version": "1.0.6",
@@ -7,6 +7,10 @@
         {
             "name": "Matt Davies",
             "email": "matt@agencycore.co.uk"
+        },
+        {
+            "name": "Patryk Antkowiak",
+            "email": "patryk.antkowiak@modernfactory.pl"
         }
     ],
     "autoload": {
